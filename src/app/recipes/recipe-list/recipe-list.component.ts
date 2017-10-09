@@ -9,7 +9,9 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is a simply test','http://maxpixel.freegreatpicture.com/Meat-Power-Recipe-Food-Dishes-Pork-1459693'),
+    new Recipe('A Test Recipe', 'This is a simply test','https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Indian-Salsa-dip-mother%27s-recipe.jpg/800px-Indian-Salsa-dip-mother%27s-recipe.jpg'),
+    new Recipe('A Test Recipe', 'This is a simply test','https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Indian-Salsa-dip-mother%27s-recipe.jpg/800px-Indian-Salsa-dip-mother%27s-recipe.jpg'),
+    new Recipe('A Test Recipe', 'This is a simply test','https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Indian-Salsa-dip-mother%27s-recipe.jpg/800px-Indian-Salsa-dip-mother%27s-recipe.jpg'),
   ];
   constructor() { }
 
